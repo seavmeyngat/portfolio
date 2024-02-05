@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+h2{
+    font-family: 'Knewave', system-ui;
+    font-size: 60px;
+}
+p{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+.container{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.menu-bar{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.menu{
+    font-family: 'Fredoka', sans-serif;
+    width: 100%;
+    height: 150PX;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    margin-left: 190px;
+ 
+}
+.menu ul{
+    
+    float: left;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    padding: 0px 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    background-color: rgba(27, 4, 4, 0.226);
+}
+.box-2 img{
+   width: 400px;
+   margin-left: 50px ;
+   margin-top: 30px;
+}
+.box{
+    display: flex;
+}
+.box-1{
+    width: 35%;
+    height: auto;
+}
+.box-2{
+    width: 35%;
+    height: auto;
+    margin-top: 50px;
+    margin-left:200px;
+    margin-top: 10px;
+   
+}
+.box-2 h1{
+    margin-left: 140px;
+    line-height: 2;
+}
+.box-2 p{
+    margin-left: 50px;
+}
+
