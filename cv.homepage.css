@@ -60,9 +60,10 @@ p{
     background-color: rgba(27, 4, 4, 0.226);
 }
 img{
-    width: 300px;
+    width: 400px;
     height: 500px;
-    margin-left: 50px;
+    margin-left: 0px;
+    margin-top: 30px;
 }
 .myself{
     font-size: 45px;
